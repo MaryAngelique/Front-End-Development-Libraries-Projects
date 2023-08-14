@@ -34,4 +34,4 @@ You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and
 </html>
 
 ## CodePen Solution Link: 
-    [Random Quuote Machine](https://codepen.io/maryangelique/pen/KKrONXO)
+    [Random Quote Machine](https://codepen.io/maryangelique/pen/KKrONXO])
