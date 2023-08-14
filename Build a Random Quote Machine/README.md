@@ -1,4 +1,4 @@
-# Random-Quote-Machine
+# Front-End-Development-Libraries-Projects
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,13 +8,15 @@
 </head>
 <body>
     <div class="react-and-redux">
-        <h1>React and Redux</h1>
-        <p>React and Redux are often mentioned together, and with good reason. The developer who created Redux was a React developer who wanted to make it easier to share data across different components.
+        <h1>Random Quote Machine</h1>
+        <p>Objective: Build an app that is functionally similar to this: https://random-quote-machine.freecodecamp.rocks/.
 
-Now that you know how to manage the flow of shared data with Redux, it's time to combine that knowledge with React. In the React and Redux courses, you'll build a React component and learn how to manage state locally at the component level, and throughout the entire application with Redux.</p>
+Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+
+You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a frontend framework (like React for example) because this section is about learning frontend frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other frontend frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!</p>
         <ul>
-            <li>Getting Started with React Redux</li>
-            <li>Manage State Locally First</li>
+            <li>User Story #2: Within #quote-box, I can see an element with a corresponding id="text".</li>
+            <li>User Story #3: Within #quote-box, I can see an element with a corresponding id="author".</li>
             <li>Extract State Logic to Redux</li>
             <li>Use Provider to Connect Redux to React</li>
             <li>Map State to Props</li>
