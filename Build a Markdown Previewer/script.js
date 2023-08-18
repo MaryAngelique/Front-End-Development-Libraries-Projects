@@ -33,7 +33,19 @@ class App extends React.Component {
     
     handleChange = e => this.setState({ markdown: e.target.value });
 
-    return();
+    render() {
+        return (
+            <div>
+                <h1>Markdown Previewer</h1>
+                <h3 id="edit-tab"><i class="fas fa-code"></i> Edit</h3>
+                <h3 id="preview-tab"><i class="far fa-eye"></i> Preview</h3>
+                <div className="container">
+                    <div className="left"> </div>
+                    <div className="right"></div>
+                </div>
+            </div>
+        );
+    }
 }
 
-ReactDOM.render(<App/>, document.getElementById('app'));
+ReactDOM.render(<App/>, document.getElementById("app"));
