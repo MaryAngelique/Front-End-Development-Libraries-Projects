@@ -14,16 +14,19 @@
 
 Complete all 5 projects, and you'll earn the Front End Development Libraries certification.</p>
         <ul>
-            <li>Getting Started with React Redux</li>
-            <li>Manage State Locally First</li>
-            <li>Extract State Logic to Redux</li>
-            <li>Use Provider to Connect Redux to React</li>
-            <li>Map State to Props</li>
-            <li>Map Dispatch to Props</li>
-            <li>Connect Redux to React</li>
-            <li>Connect Redux to the Messages App</li>
-            <li>Extract Local State into Redux</li>
-            <li>Moving Forward From Here</li>
+            <li>Build a Random Quote Machine</li>
+            <li>Build a Markdown Previewer</li>
+            <li>Build a Drum Machine</li>
+            <li>Build a JavaScript Calculator</li>
+            <li>Build a 25 + 5 Clock</li>
+            Build a Random Quote Machine
+Build a Markdown Previewer
+Not Passed
+Build a Drum Machine
+Not Passed
+Build a JavaScript Calculator
+Not Passed
+Build a 25 + 5 Clock
           </ul>
     </div>
 </body>
