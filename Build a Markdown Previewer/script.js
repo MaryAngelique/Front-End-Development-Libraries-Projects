@@ -40,8 +40,12 @@ class App extends React.Component {
                 <h3 id="edit-tab"><i class="fas fa-code"></i> Edit</h3>
                 <h3 id="preview-tab"><i class="far fa-eye"></i> Preview</h3>
                 <div className="container">
-                    <div className="left"> </div>
-                    <div className="right"></div>
+                    <div className="left">
+                        <textarea id="editor" value={this.state.markdown} onChange={this.handleChange}/>
+                    </div>
+                    <div className="right">
+                        <div id="preview" dangerouslySetInnerHTML={{__html: marked(this.state.markdown)}}></div>
+                    </div>
                 </div>
             </div>
         );
