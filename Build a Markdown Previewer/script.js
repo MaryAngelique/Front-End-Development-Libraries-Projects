@@ -21,3 +21,19 @@ const initialMarkdown = `
 
     **bold text**
 `
+
+class App extends React.Component {
+    constructor(props) {
+        super(props)
+        
+        this.state = {
+            markdown: initialMarkdown
+        }
+    }
+    
+    handleChange = e => this.setState({ markdown: e.target.value });
+
+    return();
+}
+
+ReactDOM.render(<App/>, document.getElementById('app'));
