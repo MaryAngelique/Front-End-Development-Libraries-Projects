@@ -19,14 +19,6 @@ Complete all 5 projects, and you'll earn the Front End Development Libraries cer
             <li>Build a Drum Machine</li>
             <li>Build a JavaScript Calculator</li>
             <li>Build a 25 + 5 Clock</li>
-            Build a Random Quote Machine
-Build a Markdown Previewer
-Not Passed
-Build a Drum Machine
-Not Passed
-Build a JavaScript Calculator
-Not Passed
-Build a 25 + 5 Clock
           </ul>
     </div>
 </body>
