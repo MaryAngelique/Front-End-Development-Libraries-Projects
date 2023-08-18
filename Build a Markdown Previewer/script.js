@@ -22,6 +22,12 @@ const initialMarkdown = `
     **bold text**
 `
 
+var renderer = new marked.Renderer()
+
+renderer.link = function(href, title, text) {
+    return `<a href=${href} target="_blank">${text}</a>`
+}
+
 class App extends React.Component {
     constructor(props) {
         super(props)
