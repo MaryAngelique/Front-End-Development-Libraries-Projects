@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="react-and-redux">
-        <h1>Random Quote Machine</h1>
+        <h1>Markdown Preview</h1>
         <p>Objective: Build an app that is functionally similar to this: https://random-quote-machine.freecodecamp.rocks/.
 
 Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
