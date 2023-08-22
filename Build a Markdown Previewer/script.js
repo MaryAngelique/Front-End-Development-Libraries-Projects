@@ -28,6 +28,14 @@ renderer.link = function(href, title, text) {
     return `<a href=${href} target="_blank">${text}</a>`
 }
 
+marked.setOptions({
+    renderer,
+    highlight: function(code) {
+        return hljs.highlightAuto(code).value;
+    },
+    breaks: true
+});
+
 class App extends React.Component {
     constructor(props) {
         super(props)
