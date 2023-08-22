@@ -19,16 +19,12 @@ You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and
             <li>User Story #2: I can see an element with a corresponding id="preview".</li>
             <li>User Story #3: When I enter text into the #editor element, the #preview element is updated as I type to display the content of the textarea.</li>
             <li>User Story #4: When I enter GitHub flavored markdown into the #editor element, the text is rendered as HTML in the #preview element as I type (HINT: You don't need to parse Markdown yourself - you can import the Marked library for this: https://cdnjs.com/libraries/marked).</li>
-            <li>User Story #6: When my markdown previewer first loads, the default markdown in the #editor field should be rendered as HTML in the #preview element</li>
-            <li>User Story #7: On first load, my quote machine displays the random quote's author in the element with id="author".</li>
-            <li>User Story #8: When the #new-quote button is clicked, my quote machine should fetch a new quote and display it in the #text element.</li>
-            <li>User Story #9: My quote machine should fetch the new quote's author when the #new-quote button is clicked and display it in the #author element.</li>
-            <li>User Story #10: I can tweet the current quote by clicking on the #tweet-quote a element. This a element should include the "twitter.com/intent/tweet" path in its href attribute to tweet the current quote.</li>
-            <li>User Story #11: The #quote-box wrapper element should be horizontally centered. Please run tests with browser's zoom level at 100% and page maximized.</li>
+            <li>User Story #5: When my markdown previewer first loads, the default text in the #editor field should contain valid markdown that represents at least one of each of the following elements: a heading element (H1 size), a sub heading element (H2 size), a link, inline code, a code block, a list item, a blockquote, an image, and bolded text.</li>
+            <li>User Story #6: When my markdown previewer first loads, the default markdown in the #editor field should be rendered as HTML in the #preview element.</li>
+            <li>Optional Bonus (you do not need to make this test pass): My markdown previewer interprets carriage returns and renders them as br (line break) elements.</li>
           </ul>
           <h3>You can build your project by using this CodePen template and clicking Save to create your own pen. Or you can use this CDN link to run the tests in any environment you like: https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js</h3>
           <h3>Once you're done, submit the URL to your working project with all its tests passing.</h3>
-          <h3>Note: Twitter does not allow links to be loaded in an iframe. Try using the target="_blank" or target="_top" attribute on the #tweet-quote element if your tweet won't load. target="_top" will replace the current tab so make sure your work is saved.</h3>
     </div>
 </body>
 </html>
