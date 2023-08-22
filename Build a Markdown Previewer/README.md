@@ -15,8 +15,8 @@ Fulfill the below user stories and get all of the tests to pass. Use whichever l
 
 You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a frontend framework (like React for example) because this section is about learning frontend frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other frontend frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!</p>
         <ul>
-            <li>User Story #2: Within #quote-box, I can see an element with a corresponding id="text".</li>
-            <li>User Story #3: Within #quote-box, I can see an element with a corresponding id="author".</li>
+            <li>User Story #1: I can see a textarea element with a corresponding id="editor".</li>
+            <li>User Story #2: I can see an element with a corresponding id="preview".</li>
             <li>User Story #4: Within #quote-box, I can see a clickable element with a corresponding id="new-quote".</li>
             <li>User Story #5: Within #quote-box, I can see a clickable a element with a corresponding id="tweet-quote".</li>
             <li>User Story #6: On first load, my quote machine displays a random quote in the element with id="text".</li>
