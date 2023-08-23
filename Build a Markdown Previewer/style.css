@@ -6,3 +6,9 @@ h1 {
     padding-top: 30px;
     font-family: 'Roboto Mono', monospace;
 }
+
+#edit-tab, #preview-tab {
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+}
