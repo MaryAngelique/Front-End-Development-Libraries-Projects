@@ -24,3 +24,28 @@ h1 {
     grid-template-columns: 50% 50%;
     grid-gap: 10px;
 }
+
+
+#preview-tab {
+     padding-left: 880px; 
+}
+
+.container {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+}
+
+.left {
+    width: 95%;
+    height: 90vh;
+} 
+
+.right {
+    width: 95%;
+    height: 90vh;
+    border-top: 1px solid;
+    overflow: auto;
+    font-family: 'Abel', Arial, sans-serif;
+}
