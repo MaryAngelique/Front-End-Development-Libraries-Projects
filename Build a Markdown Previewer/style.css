@@ -12,3 +12,15 @@ h1 {
     font-size: 18px;
     font-family: 'Titillium Web', sans-serif;
 }
+
+
+#preview-tab {
+    padding-left: 880px; 
+}
+
+.container {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+}
