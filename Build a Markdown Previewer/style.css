@@ -94,3 +94,11 @@ footer {
     font-family: 'Roboto Mono', monospace;
     color: #4da6ff;
 }
+
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    color: #abb2bf;
+    background: #282c34;
+}
