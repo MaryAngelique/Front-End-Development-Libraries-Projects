@@ -60,3 +60,27 @@ function clearDisplay() {
     display.innerHTML = 0;
     secondaryDisplay.innerHTML = trailingResult;
 }
+
+function calculate(firstNumber, secondNumber, operation) {
+    let result;
+    firstNumber = parseFloat(firstNumber);
+    secondNumber = parseFloat(secondNumber);
+    
+    switch(operation) {
+        case "add":
+            result = firstNumber + secondNumber;
+            break;
+        case "subtract":
+            result = firstNumber - secondNumber;
+            break;
+        case "multiply":
+            result = firstNumber * secondNumber;
+            break;
+        case "divide":
+            result = firstNumber / secondNumber;
+            break;
+        default:
+        console.log("Calculate switch statement missed something");
+    }
+    return result.toString();
+}
