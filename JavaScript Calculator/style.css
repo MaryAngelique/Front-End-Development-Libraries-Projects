@@ -83,3 +83,31 @@ button {
 button:active {
 	background: #bfbfbf;
 }
+
+button:nth-child(2) {
+	margin-left: 205px;
+	display: block;
+	background: #505050;
+	color: white;
+}
+
+button:nth-child(2):active {
+	background: #D4D4D2;
+}
+
+button:nth-child(6),
+button:nth-child(10),
+button:nth-child(14),
+button:nth-child(17),
+button:nth-child(18) {
+	background: #FF9500;
+	color: white;
+}
+
+button:nth-child(6):active,
+button:nth-child(10):active,
+button:nth-child(14):active,
+button:nth-child(17):active,
+button:nth-child(18):active {
+	background: #c3750a;
+}
