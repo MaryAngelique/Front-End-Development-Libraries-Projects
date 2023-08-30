@@ -56,7 +56,6 @@ function updateDisplay(input) {
 function clearDisplay() {
     let display = document.getElementById("display");
     let secondaryDisplay = document.getElementById("secondaryDisplay");
-
     trailingResult = 0;
     display.innerHTML = 0;
     secondaryDisplay.innerHTML = trailingResult;
