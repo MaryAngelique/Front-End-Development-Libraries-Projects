@@ -2,7 +2,7 @@
 	padding: auto;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Serif', serif;
 }
 
 body {
@@ -22,8 +22,9 @@ body {
 	display: block;
 	height: auto;
 	width: 278px;
-	background-color: #1C1C1C;
-	font-size: 0.8em;
+	background-color: black;
+	font-size: 15px;
+	font-weight: 300;
 	padding: 5px;
 	max-width: 320px;
 }
@@ -74,25 +75,25 @@ button {
 	margin: 4px 2px;
 	outline: none;
 	border: none;
-	background: rgb(223, 223, 223);
+	background: #D4D4D2;
 	color: black;
 	border-radius: 5px;
 	font-size: 1.4em;
 }
 
 button:active {
-	background: #bfbfbf;
+	background: #9c9c9c;
 }
 
 button:nth-child(2) {
 	margin-left: 205px;
 	display: block;
-	background: #505050;
+	background: #FF9500;
 	color: white;
 }
 
 button:nth-child(2):active {
-	background: #D4D4D2;
+	background: #c3750a;
 }
 
 button:nth-child(6),
@@ -118,4 +119,25 @@ footer {
 	padding: 20px;
 	width: 100%;
 	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+h1 {
+	display: inline;
+	font-size: 15px;
+	color: #1C1C1C;
+	letter-spacing: 0.05em;
+	transition: all 0.3s;
+}
+
+a:hover {
+	text-shadow: 1px -1px 0 #FF9500;
+	font-weight: 300;
+	font-style: italic;
 }
