@@ -111,3 +111,11 @@ button:nth-child(17):active,
 button:nth-child(18):active {
 	background: #c3750a;
 }
+
+footer {
+	position: absolute;
+	bottom: 0;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+}
