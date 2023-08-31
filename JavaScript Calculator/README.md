@@ -1,4 +1,4 @@
-# FrontEnd-Dev-Libraries-Bootstrap
+# Front-End-Development-Libraries-Projects: JavaScript-Calculator
 
 <!DOCTYPE html>
 <html lang="en">
@@ -7,11 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <div class="bootstrap">
-        <h1>Bootstrap</h1>
-        <p>Bootstrap is a front end framework used to design responsive web pages and applications. It takes a mobile-first approach to web development, and includes pre-built CSS styles and classes, plus some JavaScript functionality.
+    <div class="js-calac">
+        <h1>JavaScript Calculator</h1>
+        <p>Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
 
-In this course, you'll learn how to build responsive websites with Bootstrap, and use its included classes to style buttons, images, forms, navigation, and other common elements.</p>
+You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a frontend framework (like React for example) because this section is about learning frontend frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other frontend frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+
+User Story #1: My calculator should contain a clickable element containing an = (equal sign) with a corresponding id="equals".</p>
         <ul>
             <li>Use Responsive Design with Bootstrap Fluid Containers</li>
             <li>Make Images Mobile Responsive</li>
