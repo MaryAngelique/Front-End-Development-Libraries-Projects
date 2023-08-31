@@ -11,12 +11,10 @@
         <h1>JavaScript Calculator</h1>
         <p>Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
 
-You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a frontend framework (like React for example) because this section is about learning frontend frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other frontend frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
-
-User Story #1: My calculator should contain a clickable element containing an = (equal sign) with a corresponding id="equals".</p>
+You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a frontend framework (like React for example) because this section is about learning frontend frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other frontend frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!</p>
         <ul>
-            <li>Use Responsive Design with Bootstrap Fluid Containers</li>
-            <li>Make Images Mobile Responsive</li>
+            <li>User Story #1: My calculator should contain a clickable element containing an = (equal sign) with a corresponding id="equals".</li>
+            <li>User Story #2: My calculator should contain 10 clickable elements containing one number each from 0-9, with the following corresponding IDs: id="zero", id="one", id="two", id="three", id="four", id="five", id="six", id="seven", id="eight", and id="nine".</li>
             <li>Center Text with Bootstrap</li>
             <li>Target Elements by id Using jQuery</li>
             <li>Create a Bootstrap Button</li>
