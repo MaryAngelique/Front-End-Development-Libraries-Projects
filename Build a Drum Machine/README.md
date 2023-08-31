@@ -23,15 +23,15 @@ You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and
           </ul>
           <p>Here are some audio samples you can use for your drum machine:
 
-- Heater 1
-- Heater 2
-- Heater 3
-- Heater 4
-- Clap
-- Open-HH
-- Kick-n'-Hat
-- Kick
-- Closed-HH
+- <a href="[https://codepen.io/maryangelique/pen/eYbZKbE4](https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3)">Heater 1</a>
+- <a href="[https://codepen.io/maryangelique/pen/eYbZKbE4](https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3)">Heater 2</a>
+- <a href="[https://codepen.io/maryangelique/pen/eYbZKbE4](https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3)">Heater 1</a>
+- <a href="[https://codepen.io/maryangelique/pen/eYbZKbE4](https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3)">Heater 1</a>
+- <a href="[https://codepen.io/maryangelique/pen/eYbZKbE4](https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3)">Heater 1</a>
+- <a href="[https://codepen.io/maryangelique/pen/eYbZKbE4](https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3)">Heater 1</a>
+- <a href="[https://codepen.io/maryangelique/pen/eYbZKbE4](https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3)">Heater 1</a>
+- <a href="[https://codepen.io/maryangelique/pen/eYbZKbE4](https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3)">Heater 1</a>
+- <a href="[https://codepen.io/maryangelique/pen/eYbZKbE4](https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3)">Heater 1</a>
 </p>
         <a href="https://codepen.io/maryangelique/pen/eYbZKbE4">CodePen Solution</a>
     </div>
