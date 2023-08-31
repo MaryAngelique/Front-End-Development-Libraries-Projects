@@ -33,7 +33,7 @@ You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and
 - <a href="https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3">Kick</a>
 - <a href="https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3">Closed-HH</a>
 </p>
-        <a href="https://codepen.io/maryangelique/pen/eYbZKbE4">CodePen Solution</a>
+        <a href="https://codepen.io/maryangelique/pen/WNLQRwM">CodePen Solution</a>
     </div>
 </body>
 </html>
