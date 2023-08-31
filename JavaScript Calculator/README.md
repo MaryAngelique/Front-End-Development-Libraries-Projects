@@ -21,9 +21,9 @@ You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and
             <li>User Story #6: My calculator should contain an element to display values with a corresponding id="display".</li>
             <li>User Story #7: At any time, pressing the clear button clears the input and output values, and returns the calculator to its initialized state; 0 should be shown in the element with the id of display.</li>
             <li>User Story #8: As I input numbers, I should be able to see my input in the element with the id of display</li>
-            <li>Warn Your Users of a Dangerous Action with btn-danger</li>
-            <li>Use the Bootstrap Grid to Put Elements Side By Side</li>
-            <li>Ditch Custom CSS for Bootstrap</li>
+            <li>User Story #9: In any order, I should be able to add, subtract, multiply and divide a chain of numbers of any length, and when I hit =, the correct result should be shown in the element with the id of display.</li>
+            <li>User Story #10: When inputting numbers, my calculator should not allow a number to begin with multiple zeros</li>
+            <li>User Story #11: When the decimal element is clicked, a . should append to the currently displayed value; two . in one number should not be accepted.</li>
             <li>Use a span to Target Inline Elements</li>
             <li>Create a Custom Heading</li>
             <li>Add Font Awesome Icons to our Buttons</li>
