@@ -13,9 +13,9 @@
 
 You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a frontend framework (like React for example) because this section is about learning frontend frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other frontend frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!</p>
         <ul>
-            <li>User Story #1: My calculator should contain a clickable element containing an = (equal sign) with a corresponding id="equals".</li>
-            <li>User Story #2: My calculator should contain 10 clickable elements containing one number each from 0-9, with the following corresponding IDs: id="zero", id="one", id="two", id="three", id="four", id="five", id="six", id="seven", id="eight", and id="nine".</li>
-            <li>User Story #3: My calculator should contain 4 clickable elements each containing one of the 4 primary mathematical operators with the following corresponding IDs: id="add", id="subtract", id="multiply", id="divide".</li>
+            <li>User Story #1: I should be able to see an outer container with a corresponding id="drum-machine" that contains all other elements.</li>
+            <li>User Story #2: Within #drum-machine I can see an element with a corresponding id="display".</li>
+            <li>User Story #3: Within #drum-machine I can see 9 clickable drum pad elements, each with a class name of drum-pad, a unique id that describes the audio clip the drum pad will be set up to trigger, and an inner text that corresponds to one of the following keys on the keyboard: Q, W, E, A, S, D, Z, X, C. The drum pads MUST be in this order.</li>
             <li>User Story #4: My calculator should contain a clickable element containing a . (decimal point) symbol with a corresponding id="decimal".</li>
             <li>User Story #5: My calculator should contain a clickable element with an id="clear".</li>
             <li>User Story #6: My calculator should contain an element to display values with a corresponding id="display".</li>
