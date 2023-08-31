@@ -18,9 +18,9 @@ You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and
             <li>User Story #3: My calculator should contain 4 clickable elements each containing one of the 4 primary mathematical operators with the following corresponding IDs: id="add", id="subtract", id="multiply", id="divide".</li>
             <li>User Story #4: My calculator should contain a clickable element containing a . (decimal point) symbol with a corresponding id="decimal".</li>
             <li>User Story #5: My calculator should contain a clickable element with an id="clear".</li>
-            <li>Create a Block Element Bootstrap Button</li>
-            <li>Taste the Bootstrap Button Color Rainbow</li>
-            <li>Call out Optional Actions with btn-info</li>
+            <li>User Story #6: My calculator should contain an element to display values with a corresponding id="display".</li>
+            <li>User Story #7: At any time, pressing the clear button clears the input and output values, and returns the calculator to its initialized state; 0 should be shown in the element with the id of display.</li>
+            <li>User Story #8: As I input numbers, I should be able to see my input in the element with the id of display</li>
             <li>Warn Your Users of a Dangerous Action with btn-danger</li>
             <li>Use the Bootstrap Grid to Put Elements Side By Side</li>
             <li>Ditch Custom CSS for Bootstrap</li>
