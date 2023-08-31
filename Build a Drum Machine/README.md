@@ -27,8 +27,8 @@ You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and
 - <a href="https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3">Heater 2</a>
 - <a href="https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3">Heater 3</a>
 - <a href="https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3">Heater 4</a>
-- <a href="">Clap</a>
-- <a href="">Open-HH</a>
+- <a href="https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3">Clap</a>
+- <a href="https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3">Open-HH</a>
 - <a href="">Kick-n'-Hat</a>
 - <a href="">Kick</a>
 - <a href="">Closed-HH</a>
