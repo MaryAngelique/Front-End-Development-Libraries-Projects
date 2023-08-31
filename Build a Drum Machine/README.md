@@ -21,12 +21,18 @@ You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and
             <li>User Story #6: When I press the trigger key associated with each .drum-pad, the audio clip contained in its child audio element should be triggered (e.g. pressing the Q key should trigger the drum pad which contains the string Q, pressing the W key should trigger the drum pad which contains the string W, etc.).</li>
             <li>User Story #7: When a .drum-pad is triggered, a string describing the associated audio clip is displayed as the inner text of the #display element (each string must be unique).</li>
           </ul>
-          <p>Note On Calculator Logic: It should be noted that there are two main schools of thought on calculator input logic: immediate execution logic and formula logic. Our example utilizes formula logic and observes order of operation precedence, immediate execution does not. Either is acceptable, but please note that depending on which you choose, your calculator may yield different results than ours for certain equations (see below example). As long as your math can be verified by another production calculator, please do not consider this a bug.</p>
-          <p>EXAMPLE: 3 + 5 x 6 - 2 / 4 =
+          <p>Here are some audio samples you can use for your drum machine:
 
-Immediate Execution Logic: 11.5
-Formula/Expression Logic: 32.5
-You can build your project by using this CodePen template and clicking Save to create your own pen</p>
+- Heater 1
+- Heater 2
+- Heater 3
+- Heater 4
+- Clap
+- Open-HH
+- Kick-n'-Hat
+- Kick
+- Closed-HH
+</p>
         <a href="https://codepen.io/maryangelique/pen/eYbZKbE4">CodePen Solution</a>
     </div>
 </body>
