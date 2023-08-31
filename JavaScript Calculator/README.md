@@ -15,9 +15,9 @@ You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and
         <ul>
             <li>User Story #1: My calculator should contain a clickable element containing an = (equal sign) with a corresponding id="equals".</li>
             <li>User Story #2: My calculator should contain 10 clickable elements containing one number each from 0-9, with the following corresponding IDs: id="zero", id="one", id="two", id="three", id="four", id="five", id="six", id="seven", id="eight", and id="nine".</li>
-            <li>Center Text with Bootstrap</li>
-            <li>Target Elements by id Using jQuery</li>
-            <li>Create a Bootstrap Button</li>
+            <li>User Story #3: My calculator should contain 4 clickable elements each containing one of the 4 primary mathematical operators with the following corresponding IDs: id="add", id="subtract", id="multiply", id="divide".</li>
+            <li>User Story #4: My calculator should contain a clickable element containing a . (decimal point) symbol with a corresponding id="decimal".</li>
+            <li>User Story #5: My calculator should contain a clickable element with an id="clear".</li>
             <li>Create a Block Element Bootstrap Button</li>
             <li>Taste the Bootstrap Button Color Rainbow</li>
             <li>Call out Optional Actions with btn-info</li>
