@@ -1,4 +1,17 @@
-class App extends React.Component { 
+class App extends React.Component {
+    state = {
+        breakCount: 5,
+        sessionCount: 25,
+        clockCount: 25 * 60,
+        currentTimer: "Session",
+        isPlaying: false
+    }
+    
+    constructor(props) {
+        super(props);
+        this.loop = undefined;
+    }
+    
     render() {
         const { 
             breakCount, 
