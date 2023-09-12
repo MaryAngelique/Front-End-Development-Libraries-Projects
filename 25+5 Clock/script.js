@@ -98,6 +98,23 @@ class App extends React.Component {
         }
     } 
 
+    handleBreakIncrease = () => {
+        const { breakCount, isPlaying, currentTimer } = this.state;
+        
+        if(breakCount < 60) {
+            if(!isPlaying && currentTimer === "Break") {
+                this.setState({
+                    breakCount: breakCount + 1,
+                    clockCount: (breakCount + 1) * 60
+                });
+            } else {
+                this.setState({
+                    breakCount: breakCount + 1,
+                });
+            }
+        }
+    }
+
     render() {
         const { 
             breakCount, 
