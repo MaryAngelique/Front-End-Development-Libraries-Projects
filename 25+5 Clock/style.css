@@ -31,3 +31,13 @@ button {
 .timer-container {
     margin: -50px 20px 20px;
 }
+
+.timer-container h2 {
+    margin: 0;
+}
+
+.actions-wrapper span {
+    font-size: 50px;
+    margin: 0 10px;
+    width: 50px;
+}
