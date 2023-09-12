@@ -31,7 +31,7 @@ class App extends React.Component {
             });
             
             this.loop = setInterval(() => {
-                const { 
+                    const { 
                     clockCount,
                     currentTimer,
                     breakCount,
@@ -42,16 +42,31 @@ class App extends React.Component {
                     this.setState({
                     currentTimer: (currentTimer === 'Session') ? 'Break' : 'Session',
                         clockCount: (currentTimer === 'Session') ? (breakCount * 60) : (sessionCount * 60) 
-                });
+                    });
                 
-                audio.play();
-                } else {
-                    this.setState({
-                    clockCount: clockCount - 1
-                });
+                    audio.play();
+                    } else {
+                        this.setState({
+                        clockCount: clockCount - 1
+                    });
                 }
             }, 1000);
         }
+    }
+    
+    handleReset = () => {
+        this.setState({
+            breakCount: 5,
+            sessionCount: 25,
+            clockCount: 25 * 60,
+            currentTimer: "Session",
+            isPlaying: false
+        });
+            
+        clearInterval(this.loop);
+            
+        audio.pause();
+        audio.currentTime = 0;
     }
     
     render() {
