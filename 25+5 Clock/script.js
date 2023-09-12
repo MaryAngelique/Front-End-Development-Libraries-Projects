@@ -132,6 +132,23 @@ class App extends React.Component {
         }
     }
 
+    handleSessionIncrease = () => {
+        const { sessionCount, isPlaying, currentTimer } = this.state;
+            
+            if(sessionCount < 60) {
+                if(!isPlaying && currentTimer === "Session") {
+                    this.setState({
+                        sessionCount: sessionCount + 1,
+                        clockCount: (sessionCount + 1) * 60
+                    });
+            } else {
+                this.setState({
+                    sessionCount: sessionCount + 1,
+                });
+            }
+        }
+    }    
+
     render() {
         const { 
             breakCount, 
