@@ -50,3 +50,11 @@ button {
     margin-top: 20px;
     width: 400px;
 }
+
+.clock-container h1 {
+    margin: 0.5;
+}
+
+.clock-container span {
+    font-size: 60px;
+}
