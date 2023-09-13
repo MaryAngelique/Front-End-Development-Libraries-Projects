@@ -20,6 +20,11 @@ You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and
             <li>User Story #3: I can see two clickable elements with corresponding IDs: id="break-decrement" and id="session-decrement".</li>
             <li>User Story #4: I can see two clickable elements with corresponding IDs: id="break-increment" and id="session-increment".</li>
             <li>User Story #5: I can see an element with a corresponding id="break-length", which by default (on load) displays a value of 5.</li>
+            <li>User Story #3: I can see two clickable elements with corresponding IDs: id="break-decrement" and id="session-decrement".</li>
+            <li>User Story #4: I can see two clickable elements with corresponding IDs: id="break-increment" and id="session-increment".</li>
+            <li>User Story #5: I can see an element with a corresponding id="break-length", which by default (on load) displays a value of 5.</li>
+            <li>User Story #6: I can see an element with a corresponding id="session-length", which by default displays a value of 25.</li>
+            <li>User Story #7: I can see an element with a corresponding id="timer-label", that contains a string indicating a session is initialized (e.g. "Session").</li>
         </ul>
     </div>
 </body>
