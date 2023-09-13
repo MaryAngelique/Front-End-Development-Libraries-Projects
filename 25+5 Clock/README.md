@@ -36,6 +36,8 @@ You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and
             <li>User Story #16: I should not be able to set a session or break length to <= 0.</li>
             <li>User Story #17: I should not be able to set a session or break length to > 60.</li>
             <li>User Story #18: When I first click the element with id="start_stop", the timer should begin running from the value currently displayed in id="session-length", even if the value has been incremented or decremented from the original value of 25.</li>
+            <li>User Story #19: If the timer is running, the element with the id of time-left should display the remaining time in mm:ss format (decrementing by a value of 1 and updating the display every 1000ms).</li>
+             <li>User Story #20: If the timer is running and I click the element with id="start_stop", the countdown should pause.</li>
         </ul>
     </div>
 </body>
